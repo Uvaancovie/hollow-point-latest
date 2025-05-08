@@ -34,7 +34,7 @@ const Navbar = () => {
           }}
         >
           <img 
-  src="/images/hollow-point-logo.jpeg" 
+  src="https://i.pinimg.com/736x/c5/3f/96/c53f9641dbc86e49e1b0b8bc579c6745.jpg" 
   alt="Hollow Point Logo"
   className="w-8 h-8 object-contain" 
 />

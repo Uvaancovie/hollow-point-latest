@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Logo background with reduced opacity */}
       <div className="absolute inset-0 flex items-center justify-center opacity-15">
         <img
-          src="/images/hollow-point-logo.jpeg"
+          src="https://i.pinimg.com/736x/c5/3f/96/c53f9641dbc86e49e1b0b8bc579c6745.jpg"
           alt=""
           className="w-full h-full object-contain"
         />
@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="w-full max-w-4xl">
           <div className="flex items-center gap-4 mb-8">
             <img
-              src="/images/hollow-point-logo.jpeg"
+              src="https://i.pinimg.com/736x/c5/3f/96/c53f9641dbc86e49e1b0b8bc579c6745.jpg"
               alt="Hollow Point Logo"
               className="w-20 h-auto object-contain"
             />
