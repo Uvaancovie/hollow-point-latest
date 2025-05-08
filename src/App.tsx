@@ -1,27 +1,26 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './sections/Hero';
-import About from './sections/About';
-import Products from './sections/Products';
-import Testimonials from './sections/Testimonials';
-import Contact from './sections/Contact';
 import Footer from './layout/Footer';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ProductsPage from './pages/ProductsPage';
+import ContactPage from './pages/ContactsPage';
 
 function App() {
-  useEffect(() => {
-    document.title = "Hollow Point Security";
-  }, []);
-
   return (
-    <div className="relative z-0 bg-black text-white">
-      <Navbar />
-      <Hero />
-      <About />
-      <Products />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="relative z-0 bg-black text-white">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/products" element={<ProductsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
