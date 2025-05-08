@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { navLinks } from '../constants';
-import {  Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import { ShieldCheck, Menu, X } from 'lucide-react';
+
+const navLinks = [
+  { id: "home", path: "/", title: "Home" },
+  { id: "about", path: "/about", title: "About" },
+  { id: "products", path: "/products", title: "Products" },
+  { id: "contact", path: "/contact", title: "Contact" },
+];
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,42 +25,33 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <nav className={`w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-black" : "bg-transparent"} transition-all duration-300`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <a
-          href='#home'
+        <Link
+          to="/"
           className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
+          onClick={() => window.scrollTo(0, 0)}
         >
-          <img 
-  src="https://i.pinimg.com/736x/c5/3f/96/c53f9641dbc86e49e1b0b8bc579c6745.jpg" 
-  alt="Hollow Point Logo"
-  className="w-8 h-8 object-contain" 
-/>
-<p className='text-white text-[18px] font-bold cursor-pointer flex'>
-  Hollow Point Security &nbsp;
-  <span className='sm:block hidden'> | Security</span>
-</p>
-        </a>
+          <ShieldCheck size={32} className="text-white" />
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            Hollow Point &nbsp;
+            <span className='sm:block hidden'> | Security</span>
+          </p>
+        </Link>
 
         <ul className='list-none hidden lg:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-gray-300"
+                location.pathname === nav.path ? "text-white" : "text-gray-300"
               } hover:text-white text-[18px] font-medium cursor-pointer transition-colors duration-200`}
-              onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={nav.path}>{nav.title}</Link>
             </li>
           ))}
         </ul>
@@ -76,14 +74,11 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`${
-                    active === nav.title ? "text-white" : "text-gray-300"
+                    location.pathname === nav.path ? "text-white" : "text-gray-300"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
+                  onClick={() => setToggle(!toggle)}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <Link to={nav.path}>{nav.title}</Link>
                 </li>
               ))}
             </ul>
