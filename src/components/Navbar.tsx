@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { navLinks } from '../constants';
-import { ShieldCheck, Menu, X } from 'lucide-react';
+import {  Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -33,11 +33,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <ShieldCheck size={32} className="text-white" />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Hollow Point &nbsp;
-            <span className='sm:block hidden'> | Security</span>
-          </p>
+          <img 
+  src="/images/hollow-point-logo.jpeg" 
+  alt="Hollow Point Logo"
+  className="w-8 h-8 object-contain" 
+/>
+<p className='text-white text-[18px] font-bold cursor-pointer flex'>
+  Hollow Point Security &nbsp;
+  <span className='sm:block hidden'> | Security</span>
+</p>
         </a>
 
         <ul className='list-none hidden lg:flex flex-row gap-10'>

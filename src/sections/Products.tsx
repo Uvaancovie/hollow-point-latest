@@ -6,25 +6,25 @@ const products = [
     icon: Camera,
     title: 'CCTV Camera',
     description: 'State-of-the-art surveillance systems for comprehensive security monitoring.',
-    image: 'https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    image: 'https://images.pexels.com/photos/3205737/pexels-photo-3205737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     icon: Shield,
     title: 'Uniform Orders',
     description: 'Professional security uniforms and equipment for your security personnel.',
-    image: 'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    image: 'https://images.pexels.com/photos/7714767/pexels-photo-7714767.jpeg?auto=compress&cs=tinysrgb&w=600'
   },
   {
     icon: Bell,
     title: 'Alarms',
     description: 'Advanced alarm systems with 24/7 monitoring and rapid response capabilities.',
-    image: 'https://images.pexels.com/photos/371949/pexels-photo-371949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    image: 'https://images.pexels.com/photos/31970050/pexels-photo-31970050/free-photo-of-solar-powered-surveillance-camera-against-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     icon: Flame,
     title: 'Fire Extinguishers',
     description: 'High-quality fire safety equipment and emergency response solutions.',
-    image: 'https://images.pexels.com/photos/6120166/pexels-photo-6120166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    image: 'https://images.pexels.com/photos/14824431/pexels-photo-14824431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   }
 ];
 
