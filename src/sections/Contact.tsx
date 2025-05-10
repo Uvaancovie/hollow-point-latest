@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
-  const whatsappNumber = "+27123456789"; // Replace with your actual WhatsApp number
+  const whatsappNumber = "+270630402135 "; // Replace with your actual WhatsApp number
   const whatsappMessage = encodeURIComponent("Hello, I'm interested in your security services.");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 

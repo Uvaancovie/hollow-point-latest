@@ -17,20 +17,13 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Form submission would go here in a real implementation
-    alert('Form submitted! In a real implementation, this would connect to a backend service.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-    });
-  };
-
   return (
-    <form onSubmit={handleSubmit} className='flex flex-col gap-6 w-full'>
+    <form
+      action="mailto:sohanmaharajh@hollowpointsecurity.co.za"
+      method="POST"
+      encType="text/plain"
+      className='flex flex-col gap-6 w-full'
+    >
       <div>
         <label htmlFor="name" className="block text-white mb-2">Full Name</label>
         <input
