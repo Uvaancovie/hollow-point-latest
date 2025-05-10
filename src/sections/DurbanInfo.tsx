@@ -17,20 +17,20 @@ const DurbanInfo = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
               <div className="bg-black p-6 rounded-xl">
-                <Clock className="text-red-600 w-8 h-8 mb-4" />
+                <Clock className="text-white-600 w-8 h-8 mb-4" />
                 <h3 className="text-white font-bold text-xl mb-3">Faster Response</h3>
                 <p className="text-gray-400">Our strategic positioning allows for quicker incident response compared to traditional law enforcement.</p>
               </div>
 
               <div className="bg-black p-6 rounded-xl">
-                <Shield className="text-red-600 w-8 h-8 mb-4" />
+                <Shield className="text-white-600 w-8 h-8 mb-4" />
                 <h3 className="text-white font-bold text-xl mb-3">Better Equipment</h3>
                 <p className="text-gray-400">Advanced technology and modern security systems for superior protection and monitoring.</p>
               </div>
             </div>
 
             <div className="bg-black p-6 rounded-xl mb-6">
-              <TrendingUp className="text-red-600 w-8 h-8 mb-4" />
+              <TrendingUp className="text-white-600 w-8 h-8 mb-4" />
               <h3 className="text-white font-bold text-xl mb-3">Economic Impact</h3>
               <p className="text-gray-400">The private security industry is a major employer in South Africa and attracts significant foreign investment, contributing to economic growth.</p>
             </div>
@@ -42,7 +42,7 @@ const DurbanInfo = () => {
             <div className="space-y-6">
               <div>
                 <h4 className="text-white font-bold text-lg mb-2 flex items-center">
-                  <Users className="text-red-600 w-5 h-5 mr-2" />
+                  <Users className="text-white-600 w-5 h-5 mr-2" />
                   Proactive Crime Prevention
                 </h4>
                 <p className="text-gray-400">We employ advanced technology and strategic patrols to deter criminal activity before it occurs.</p>
@@ -50,7 +50,7 @@ const DurbanInfo = () => {
 
               <div>
                 <h4 className="text-white font-bold text-lg mb-2 flex items-center">
-                  <Users className="text-red-600 w-5 h-5 mr-2" />
+                  <Users className="text-white-600 w-5 h-5 mr-2" />
                   Collaboration with Law Enforcement
                 </h4>
                 <p className="text-gray-400">We maintain strong partnerships with SAPS and other agencies to enhance security effectiveness.</p>
@@ -58,7 +58,7 @@ const DurbanInfo = () => {
 
               <div>
                 <h4 className="text-white font-bold text-lg mb-2 flex items-center">
-                  <Users className="text-red-600 w-5 h-5 mr-2" />
+                  <Users className="text-white-600 w-5 h-5 mr-2" />
                   Comprehensive Coverage
                 </h4>
                 <p className="text-gray-400">From residential to commercial security, we provide tailored solutions for all protection needs.</p>
@@ -66,7 +66,7 @@ const DurbanInfo = () => {
 
               <div>
                 <h4 className="text-white font-bold text-lg mb-2 flex items-center">
-                  <Users className="text-red-600 w-5 h-5 mr-2" />
+                  <Users className="text-white-600 w-5 h-5 mr-2" />
                   Industry Leadership
                 </h4>
                 <p className="text-gray-400">Part of South Africa's well-established private security sector, known for excellence and reliability.</p>

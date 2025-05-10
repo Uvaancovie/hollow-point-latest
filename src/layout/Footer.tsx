@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <ShieldCheck size={32} className="text-red-600" />
+              <ShieldCheck size={32} className="text-white-600" />
               <p className='text-white text-[18px] font-bold'>
                 Hollow Point Security
               </p>
@@ -18,16 +18,16 @@ const Footer = () => {
               Providing elite security solutions to protect what matters most to you. Available 24/7 for your peace of mind.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <li key={link.id}>
                   <a 
                     href={`#${link.id}`}
-                    className="text-gray-400 hover:text-red-600 transition-colors duration-300"
+                    className="text-gray-400 hover:text-white-600 transition-colors duration-300"
                   >
                     {link.title}
                   </a>
@@ -53,32 +53,32 @@ const Footer = () => {
             <h3 className="text-white font-bold text-lg mb-6">Services</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#services" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                   Residential Security
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                   Commercial Security
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                   Personal Protection
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                   Security Consulting
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                   Event Security
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-red-600 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-white-600 transition-colors duration-300">
                   Surveillance Systems
                 </a>
               </li>
@@ -89,17 +89,17 @@ const Footer = () => {
             <h3 className="text-white font-bold text-lg mb-6">Contact Info</h3>
             <ul className="space-y-3">
               <li className="text-gray-400">
-                123 Security Drive, Suite 500
-                <br />Metropolis, NY 10001
+                Umhlanga Rocks
+                <br />Durban South Africa
               </li>
               <li className="text-gray-400">
-                info@hollowpointsecurity.com
+                Sohanmaharajh@hollowpointsecurity.co.za
               </li>
               <li className="text-gray-400">
-                +1 (555) 123-4567
+                0630402135 
               </li>
               <li className="text-gray-400">
-                24/7 Emergency: +1 (555) 911-0000
+                24/7 Emergency: 0630402135 
               </li>
             </ul>
           </div>
