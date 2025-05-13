@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-gray-300 text-lg mb-6">
-              Welcome to Hollow Point Security Solutions, a proudly Black-owned company based in KwaZulu-Natal. We specialize in delivering top-tier security services tailored to meet the unique needs of each client.
+              At Hollow Point Security Solutions, a proudly Black-owned company based in KwaZulu-Natal. We specialize in delivering top-tier security services tailored to meet the unique needs of each client.
             </p>
             
             <p className="text-gray-300 text-lg mb-6">

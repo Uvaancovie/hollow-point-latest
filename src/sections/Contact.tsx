@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
-  const whatsappNumber = "+270630402135 "; // Replace with your actual WhatsApp number
+  const whatsappNumber = "27630835453"; // WhatsApp number without '+' and spaces
   const whatsappMessage = encodeURIComponent("Hello, I'm interested in your security services.");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -36,7 +36,14 @@ const Contact = () => {
                 <Mail className="h-6 w-6 text-white" />
                 <div className="ml-4">
                   <h4 className="text-white font-bold">Email</h4>
-                  <p className="text-gray-300">sohanmaharajh@hollowpointsecurity.co.za</p>
+                  <p className="text-gray-300">
+                    <a
+                      href="mailto:sohanmaharajh@hollowpointsecurity.co.za"
+                      className="text-gray-300 hover:underline"
+                    >
+                      sohanmaharajh@hollowpointsecurity.co.za
+                    </a>
+                  </p>
                 </div>
               </div>
 

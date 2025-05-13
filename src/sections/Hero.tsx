@@ -33,19 +33,10 @@ const Hero = () => {
 
           <div className="mb-12">
             <p className="text-gray-300 text-xl leading-relaxed">
-              Welcome to Hollow Point Security Solutions, a proudly Black-owned
-              company based in KwaZulu-Natal. We specialize in delivering top-tier
-              security services tailored to meet the unique needs of each client.
-              In addition to our core focus on safety and protection, we offer
-              specialized consulting designed to provide strategic solutions that
-              align with our clients' goals.
+             Welcome to HollowPoint Security – Your Trusted Shield in an Uncertain World. Our dedicated team is here to protect what matters most to you, with 24/7 vigilance and state-of-the-art security solutions. Secure your peace of mind today
             </p>
             <p className="text-gray-300 text-xl mt-6 leading-relaxed">
-              As a newly established company, we bring fresh energy,
-              professionalism, and a client-first approach to every project we
-              take on. Our commitment extends beyond KwaZulu-Natal—we are ready to
-              serve and support clients across South Africa with integrity,
-              reliability, and excellence.
+              At HollowPoint Security, your safety is our mission. Whether you need advanced security systems, rapid emergency response, or expert consultation, our team is ready to safeguard your home, business, and peace of mind. Trust in our commitment to excellence and experience true security.
             </p>
           </div>
         </div>
